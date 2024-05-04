@@ -1,11 +1,9 @@
 "use client";
 
-import { Button } from "@/components/UI/button";
-
 const page = () => {
   return (
     <div>
-      <Button
+      {/* <Button
         onClick={() => alert("test")}
         className="bg-red-500 text-white border-none hover:bg-red-600"
       >
@@ -20,7 +18,7 @@ const page = () => {
       </Button>
       <Button onClick={() => alert("test")} variant="danger" size="md">
         test
-      </Button>
+      </Button> */}
     </div>
   );
 };
